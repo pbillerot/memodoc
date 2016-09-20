@@ -22,6 +22,7 @@
 	</audio>
 	<audio>     
 		<name>Raven Radio - Dire Straits</name>
-		<url>http://149.202.94.241:2199/tunein/straits.pls</url>
+		<url_old>http://149.202.94.241:2199/tunein/straits.pls</url_old>
+		<url>http://149.202.94.241:7126/</url>
 	</audio>
 </audios>
