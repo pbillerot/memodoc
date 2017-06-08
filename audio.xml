@@ -9,8 +9,16 @@
 		<url>http://direct.franceculture.fr/live/franceculture-midfi.mp3</url>
 	</audio>
 	<audio>     
+		<name>OuiFM Inde</name>
+		<url>http://chai5she.cdn.dvmr.fr/ouifm5.mp3</url>
+	</audio>
+	<audio>     
+		<name>OuiFM Rock</name>
+		<url>http://bluesnrock.stream.ouifm.fr/ouifmbluesnrock-128.mp3</url>
+	</audio>
+	<audio>     
 		<name>Size Radio</name>
-		<url>http://size.ice.infomaniak.ch/size-128.mp3</url>
+		<url>http://ample-01.radiojar.com/atr1e8aswa5tv?1496392915=&rj-token=AAABXGgBiKpdDnWatapSjgzpbEgK79msPJpzwbgo9dFs42bicUvMqQ&rj-ttl=5</url>
 	</audio>
 	<audio>     
 		<name>Private Investigations</name>
@@ -20,4 +28,5 @@
 		<name>Au bout du fil</name>
 		<url>https://ia801309.us.archive.org/34/items/auboutdufil-archives/481/BranchImmersion-Movement-02Correlation.mp3</url>
 	</audio>
+	http://chai5she.cdn.dvmr.fr/ouifm5.mp3
 </audios>
