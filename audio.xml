@@ -21,12 +21,13 @@
 		<url>http://ample-01.radiojar.com/atr1e8aswa5tv?1496392915</url>
 	</audio>
 	<audio>     
-		<name>Private Investigations</name>
-		<url>http://streaming.radionomy.com/Private-Investigations?lang=en-US%2cen%3bq%3d0.5</url>
-	</audio>
-	<audio>     
 		<name>Au bout du fil</name>
 		<url>https://ia801309.us.archive.org/34/items/auboutdufil-archives/481/BranchImmersion-Movement-02Correlation.mp3</url>
 	</audio>
+	<audio>     
+		<name>Ikson Coastline</name>
+		<url>https://cchound.ams3.digitaloceanspaces.com/Ikson%20-%20Coastline.mp3</url>
+	</audio>
 	http://chai5she.cdn.dvmr.fr/ouifm5.mp3
+	
 </audios>
