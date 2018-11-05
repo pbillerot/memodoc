@@ -1,0 +1,135 @@
+{
+    "application_title": "Foire Expo",
+    "application_description": "Gestion des tables de l'association",
+    "tables": {
+        "tableur_contacts": {
+            "schema": "CREATE TABLE tableur_contacts ( id int(11) NOT NULL AUTO_INCREMENT, name VARCHAR (50) NOT NULL, email VARCHAR (50) NOT NULL, profil VARCHAR(50) NOT NULL, actif VARCHAR(1) NOT NULL, notes VARCHAR (250) NULL, PRIMARY KEY (id) );",
+            "singular": "Contact",
+            "plural": "Contacts",
+            "elements": {
+                "name": {
+                    "label_view": "Nom",
+                    "label_form": "Nom du contact",
+                    "type": "text",
+                    "required": true,
+                    "sortable": true
+                },
+                "email": {
+                    "label_view": "E-Mail",
+                    "label_form": "E-Mail",
+                    "type": "email",
+                    "required": true
+                },
+                "profil": {
+                    "label_view": "Profil",
+                    "label_form": "Profil",
+                    "type": "select",
+                    "items": {
+                        "admin": "Admin",
+                        "editor": "Editeur",
+                        "invite": "Invité"
+                    },
+                    "default": "invite",
+                    "sortable": true
+                },
+                "actif": {
+                    "label_view": "Actif",
+                    "label_form": "Actif",
+                    "type": "checkbox",
+                    "default": "0",
+                    "sortable": true
+                },
+                "notes": {
+                    "label_view": "Notes",
+                    "label_form": "Notes",
+                    "type": "textarea"
+                }
+            },
+            "views": {
+                "vcontact": {
+                    "title": "Contacts",
+                    "form_new": "fcontact",
+                    "form_edit": "fcontact",
+                    "deletable": true,
+                    "elements": {
+                        "name": {},
+                        "profil": {},
+                        "email": {},
+                        "actif": {},
+                        "notes": {}
+                    }
+                },
+                "vadmin": {
+                    "title": "Administrateurs",
+                    "form_new": "fcontact",
+                    "form_edit": "fcontact",
+                    "deletable": true,
+                    "elements": {
+                        "name": {},
+                        "profil": {},
+                        "email": {},
+                        "actif": {},
+                        "notes": {}
+                    },
+                    "where": "profil = 'admin'"
+                }
+            },
+            "forms": {
+                "fcontact": {
+                    "title": "Fiche Contact",
+                    "elements": {
+                        "name": {},
+                        "email": {},
+                        "profil": {},
+                        "actif": {},
+                        "notes": {}
+                    }
+                }
+            }
+        },
+        "tableur_commissions": {
+            "schema": "CREATE TABLE tableur_commissions ( id int(11) NOT NULL AUTO_INCREMENT, name VARCHAR (50) NOT NULL, notes VARCHAR (250) NULL, PRIMARY KEY (id) );",
+            "singular": "Commission",
+            "plural": "Commissions",
+            "elements": {
+                "name": {
+                    "label_view": "Nom",
+                    "label_form": "Nom de la Commission",
+                    "type": "text",
+                    "required": true,
+                    "sortable": true
+                },
+                "notes": {
+                    "label_view": "Notes",
+                    "label_form": "Notes",
+                    "type": "textarea"
+                }
+            },
+            "views": {
+                "vall": {
+                    "title": "Commissions",
+                    "form_new": "fedit",
+                    "form_edit": "fedit",
+                    "deletable": true,
+                    "elements": {
+                        "name": {},
+                        "notes": {}
+                    }
+                }
+            },
+            "forms": {
+                "fedit": {
+                    "title": "Commission",
+                    "elements": {
+                        "name": {},
+                        "notes": {}
+                    }
+                }
+            }
+        },
+        "tableur_affectations": {
+            "schema": "CREATE TABLE tableur_affectations (commission_id int(11) NOT NULL, contact_id int(11) NOT NULL, PRIMARY KEY (commission_id, contact_id) );",
+            "views": {}
+        }
+    }
+}
