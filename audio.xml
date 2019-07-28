@@ -32,4 +32,8 @@
 		<name>Rafael Krux - Motions</name>
 		<url>https://cchound.ams3.digitaloceanspaces.com/Rafael%20Krux%20-%20Motions.mp3</url>
 	</audio>
+	<audio>     
+		<name>Drums 100 bpm</name>
+		<url>file:///storage/sdcard0/Abri/Accompagnement/drums-4x2-100.mp3</url>
+	</audio>
 </audios>
