@@ -17,19 +17,11 @@
 		<url>http://bluesnrock.stream.ouifm.fr/ouifmbluesnrock-128.mp3</url>
 	</audio>
 	<audio>     
-		<name>Size Radio</name>
-		<url>http://ample-01.radiojar.com/atr1e8aswa5tv?1496392915</url>
+		<name>Jazz/Blues</name>
+		<url>http://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3</url>
 	</audio>
 	<audio>     
-		<name>Au bout du fil</name>
-		<url>https://ia801309.us.archive.org/34/items/auboutdufil-archives/481/BranchImmersion-Movement-02Correlation.mp3</url>
-	</audio>
-	<audio>     
-		<name>Ikson - Coastline</name>
-		<url>https://cchound.ams3.digitaloceanspaces.com/Ikson%20-%20Coastline.mp3</url>
-	</audio>
-	<audio>     
-		<name>Rafael Krux - Motions</name>
-		<url>https://cchound.ams3.digitaloceanspaces.com/Rafael%20Krux%20-%20Motions.mp3</url>
+		<name>Kazz/Lounge</name>
+		<url>http://jazzblues.ice.infomaniak.ch/jazzlounge-high.mp3</url>
 	</audio>
 </audios>
