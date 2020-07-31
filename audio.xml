@@ -9,8 +9,16 @@
 		<url>http://direct.franceculture.fr/live/franceculture-midfi.mp3</url>
 	</audio>
 	<audio>     
+		<name>Fip Jazz</name>
+		<url>http://icecast.radiofrance.fr/fipjazz-midfi.mp3</url>
+	</audio>
+	<audio>     
+		<name>Fip World</name>
+		<url>http://icecast.radiofrance.fr/fipworld-midfi.mp3</url>
+	</audio>
+	<audio>     
 		<name>OuiFM Inde</name>
-		<url>http://chai5she.cdn.dvmr.fr/ouifm5.mp3</url>
+		<url>http://rockinde.stream.ouifm.fr/ouifm5.mp3</url>
 	</audio>
 	<audio>     
 		<name>OuiFM Rock</name>
